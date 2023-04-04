@@ -3,28 +3,34 @@
     <mj-title>Apple letter</mj-title>
     <mj-preview>Apple Letter</mj-preview>
     <mj-style>
-      
+      h1 {
+        all: inherit;
+      }
     </mj-style>
   </mj-head>
   <mj-body width="640px">
-     <mj-section padding="0">
-       <mj-column background-color="#313131">
-        <mj-image
-           align="center"
-           src="https://happypik.ru/wp-content/uploads/2019/09/njashnye-kotiki20.jpg"
-           alt="icon"
-           width="24px"
-           padding="24px"/>
-       </mj-column>
-     </mj-section>
-     <mj-section background-color="#141415" padding="0">
-      <mj-column>
-        <mj-text color="#ffffff" font-family="Verdana" font-size="40px" font-weight="bold" align="center">
-        <h1 style="font-size:inherit">
-          Our most stunning take on post-production.
-        </h1>
-        </mj-text>
+    <mj-section padding="0">
+      <mj-column background-color="#313131">
+        <mj-image align="center" src="https://happypik.ru/wp-content/uploads/2019/09/njashnye-kotiki20.jpg" alt="icon" width="24px" padding="24px" />
       </mj-column>
-     </mj-section>
+    </mj-section>
+    <mj-section background-color="#141415" padding="0">
+      <mj-column>
+        <mj-text padding="60px 30px 0px 30px" color="#ffffff" font-family="Verdana" font-size="40px" font-weight="bold" align="center" line-height="49px">
+          <h1>
+            Our most stunning take on post-production.
+          </h1>
+        </mj-text>
+        <mj-button css-class="link" href="http://yandex.ru" font-family="Verdana" font-weight="bold" background-color="transparent" color="#51ACFF" line-height="17px" font-size="15px">
+          Buy now
+          <img src="https://my-apple-store.ru/wa-data/public/shop/products/30/39/13930/images/24369/24369.970.jpg" alt="arrow" width="15px" />
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#141415" padding="0">
+      <mj-column>
+        <mj-image src="https://my-apple-store.ru/wa-data/public/shop/products/30/39/13930/images/24369/24369.970.jpg" alt="mac" width="200px" />
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
